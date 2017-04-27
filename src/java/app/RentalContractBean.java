@@ -130,9 +130,9 @@ public class RentalContractBean {
           {}
           else{
               WorkClass wc = new WorkClass();
-              String des =  wc.WorkByID(Integer.parseInt(description)).getName();
+             
               
-              this.setJobDescription(des);
+            
               
           }
           
@@ -140,4 +140,6 @@ public class RentalContractBean {
             return "success";
         return "fail";
     }
+    
+    
 }

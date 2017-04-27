@@ -6,8 +6,20 @@
 package app;
 
 import entity.Work;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.faces.context.ExternalContext;
+import javax.faces.context.FacesContext;
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 import model.WorkClass;
+import org.xml.sax.SAXException;
 
 /**
  *
@@ -57,8 +69,12 @@ public class WorkBean {
     }
     
     public ArrayList<Work> getdata(){
-        WorkClass wc = new WorkClass();
-        ArrayList<Work> arr = wc.WorkList();
-        return arr;
+            WorkClass w  = new WorkClass();
+        return w.allData();
+        
+    }
+    
+    public static void main(String[] args) {
+ 
     }
 }

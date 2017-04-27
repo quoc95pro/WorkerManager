@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<WorkList>
+    <Work>
+        <id>1</id>
+        <Name>Thông tắc bể phốt</Name>
+        <Description>Thông tắc bể phốt,Thông tắc bể phốt,Thông tắc bể phốt,Thông tắc bể phốt</Description>
+        <link>http://thongtaccong.edu.vn/wp-content/uploads/2014/12/thong-tac-nha-ve-sinh-tai-thanh-xuan.jpg</link>    
+    </Work>
+    <Work>
+        <id>2</id>
+        <Name>Trông trẻ</Name>
+        <Description>Trông trẻ Trông trẻ Trông trẻ Trông trẻ</Description>
+        <link>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrrxnfpyiRAAJaREGIaZ1_ymDJf53kvOrPF12lZWZOLlcU5hefvA</link>    
+    </Work>
+    <Work>
+        <id>3</id>
+        <Name>Vệ sĩ</Name>
+        <Description>Vệ sĩ Vệ sĩ Vệ sĩ Vệ sĩ</Description>
+        <link>http://pik.vn/2016e988a2ad-620d-459b-85ef-0b5bfcca0f6b.jpeg</link>    
+    </Work>
+    <Work>
+        <id>4</id>
+        <Name>DJ</Name>
+        <Description>DJ DJ DJ DJ</Description>
+        <link>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOzKQBcDBnjpABhKcPj8_xLfFAze3NgQ3z3aGy-X424ce6jr79dw</link>    
+    </Work>
+</WorkList>

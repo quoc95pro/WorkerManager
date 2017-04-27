@@ -72,6 +72,7 @@ public class AdminBean {
         if(ac.checkLogin(adminID, passWord)){
             HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
            HttpSession session = request.getSession();
+           
             session.setAttribute("userNameAdmin", adminID);
             return "success";
         }

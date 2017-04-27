@@ -14,11 +14,20 @@ public class RentalContract {
     private String userName;
     private String place;// địa điểm
     private String jobDescription;// mô tả công việc
+    private int numberOfWorker	;
     private String adminID;
     private float price;
     private String startTime;// bắt đầu
     private String endTime;// kết thúc
     private String status;// mặc định pending 
+
+    public int getNumberOfWorker() {
+        return numberOfWorker;
+    }
+
+    public void setNumberOfWorker(int numberOfWorker) {
+        this.numberOfWorker = numberOfWorker;
+    }
 
     public String getPlace() {
         return place;
@@ -31,10 +40,10 @@ public class RentalContract {
     public RentalContract() {
     }
 
-    public RentalContract(String rentalContractID, String userName,String place, String jobDescription, String adminID, float price, String startTime, String endTime, String status) {
+    public RentalContract(String rentalContractID, String userName,String place,int numberOfWorker, String jobDescription, String adminID, float price, String startTime, String endTime, String status) {
         this.rentalContractID = rentalContractID;
         this.userName = userName;
-       
+        this.numberOfWorker =numberOfWorker;
         this.jobDescription = jobDescription;
         this.adminID = adminID;
         this.price = price;
